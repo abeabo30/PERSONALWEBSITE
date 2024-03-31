@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Places I wanted to Visit</title>
+    <link rel="stylesheet" type="text/css" href="otico.PLACESCSS.css"/>
+</head>
+<body>
+    <!--OTICO, GABRIEL-->
+    <!--MARCH 3, 2024-->
+    <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo"><a href="#"><span>Gabriel</span> Otico</a> </div>
+            <ul>
+                <li><a href="../OTICO-LANDING PAGE/OTICO_LANDINGPAGE.html">Home</a></li>
+                <li><a href="../OTICO-BIO/otico_biography_section.html">About</a></li>
+                <li><a href="../OTICO-RESUME/OTICO_RESUME_ITAD.html">Resume</a></li>
+                <li><a href="../OTICO-SKILLS/OTICO_SECTION_SKILLS.html">Skills</a></li>
+                <li><a href="../OTICO-GALLERY/otico_gallery.html">Photo Gallery</a></li>
+                <li><a href="../OTICO-MUSIC/otico_MUSIC.html">My Beat</a></li>
+                <li><a href="../OTICO-TVSHOWS/otico_TVSHOWS.html">TV Shows</a></li>
+                <li><a href="../OTICO-MOVIES/otico_MOVIES.html">Movies</a></li>
+                <li><a href="OTICO-PLACES/otico_PLACES.html">Places</a></li>
+                <li><a href="../OTICO-BUCKETLIST/otico_BUCKETLIST.html">Bucket List</a></li>
+            </ul>
+        </div>
+    </nav>
+	
+	<div class="body">
+	    <br /><br /><br />
+	    <br />
+	
+	    <div class="bodycontent">
+		    <br /><br />
+            <h1>Destinations Dreamed: Exploring Italy, France, <br />Japan, South Korea, and Singapore</h1>
+            <div class="line-format">
+                <hr class="line">
+                <hr class="line1">
+            </div>
+            <div class="introduction">
+                <p>
+                     Join me as I share my dreams and aspirations of exploring the world's most captivating locations. Let's embark on this adventure together, as we uncover the beauty and wonder of the places I've longed to experience firsthand. 
+                </p>
+            </div>
+			<img usemap="#placestovisit" src="4.png" alt="Places I want to Visit">
+			<map name="placestovisit" id="placestovisit">
+            <area shape="poly" coords="141,537,152,525,165,512,177,495,181,478,183,467,184,458,194,459,203,459,214,439,222,427,229,411,235,403,233,382,237,376,244,373,249,354,254,334,258,309,261,280,263,260,265,250,261,240,262,229,267,225,269,214,275,216,278,225,282,236,282,246,279,255,283,280,286,302,290,327,296,357,302,373,314,382,311,397,318,416,329,433,340,452,342,459,357,459,365,461,366,482,374,498,388,512,401,525,415,539" href="FRANCE_FOLDER/France.html" title="France" alt="France">
+            <area shape="circle" coords="628,546,77" href="SINGAPORE_FOLDER/Singapore.html" title="Singapore" alt="Singapore">
+            <area shape="circle" coords="660,263,94" href="ITALY_FOLDER/Italy.html" title="Italy" alt="Italy">
+            <area shape="rect" coords="856,210,1074,370" href="JAPAN_FOLDER/Japan.html" title="Japan" alt="Japan">
+            <area shape="rect" coords="885,542,1071,644" href="SOUTHKOREA_FOLDER/SouthKorea.html" title="South Korea" alt="South Korea">
+			</map>
+	    </div>	
+    </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+    $(document).ready(function(e) {
+        $('area').on('click', function() {
+            alert("Welcome to " + $(this).attr('alt') + "!");
+            
+        });
+    });
+        </script>
+</body>
+</html>

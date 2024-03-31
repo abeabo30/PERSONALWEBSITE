@@ -1,0 +1,139 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    background-color: azure;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: rgb(9, 77, 94);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 5px 5px 10px #5fb8cf; 
+    font-size: 50px;
+    margin: 2px 2px 2px 3px;
+}
+.navbar{
+    background-color: rgb(71, 164, 187);
+    padding-right: 30px;
+    padding-left: 15px;
+}
+.navdiv{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+}
+.logo a{
+    font-size: 35px; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600; 
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.logo span {
+    color: rgb(9, 77, 94);
+}
+ul {
+    margin-left: 20px;
+}
+li{
+    list-style: none; 
+    display: inline-block;
+}
+li a{
+    color: white; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px; 
+    font-weight: bold; 
+    padding-left: 10px;
+    padding: 15px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: rgb(9, 77, 94);
+}
+.line {
+    text-align: center;
+    width: 30%;
+    border: 1px solid #5fb8cf; 
+}
+.line1 {
+    text-align: center;
+    width: 60%;
+    border: 1px solid #5fb8cf; 
+}
+.introduction {
+    text-align: center;
+    margin: 0px 250px 0px 250px;
+    line-height: 20px;
+    font-size: 10pt;
+    color: #666;
+}
+.bodycontent{
+	margin: auto;
+	height: 85%;
+	position: relative;
+	max-width: 86%;
+	min-width: 40%;
+	box-shadow: 0 6px 10px rgba(0,0,.4);
+    background-color: white;
+}
+.future1{
+	background-color: white;
+	position: relative;
+	width:25%;
+	height: 349px;
+	padding: 12px;
+	box-shadow: 0 5px 6px rgba(0,0,0,.3);
+	left: 1.7em;
+    float: left;
+    margin: auto;
+}
+.tag{
+	text-align: center;
+	line-height:1.8em;
+	font-weight: bold;
+	color: rgb(9, 77, 94);
+}
+.divp1{
+	padding: 30px 40px 15px 59px;
+	margin: 0 3em;
+	position: relative;	
+	left: 2.3em;
+	border: 2px solid rgb(9, 77, 94);
+	overflow: auto;
+    height: 325px;
+}
+.divp1 p {
+    color: #666;
+    margin-top: 30px;
+}
+img.futurepic1{
+	border: 2px solid black;
+	float: left;
+}
+.button-placement {
+    min-width: 500px;
+    max-width: 100em;
+    margin: auto;
+    margin-top: -40px;
+    margin-bottom: 30px;
+}
+.button {
+    display: block;
+    width: 115px;
+    height: 25px;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 50px;
+    margin: auto;
+}
+.button:hover {
+    box-shadow: 5px 7px 15px 5px rgb(143, 209, 228); 
+}
